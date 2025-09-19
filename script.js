@@ -25,6 +25,8 @@ function showCSS() {
 
 function showJS() {
   document.body.className = "styled animate";
+  document.getElementById("title").style.color = "white";
+  document.getElementById("particles-js").style.background = "radial-gradient(circle 700px at 0% 30%, rgba(120, 22, 211, 0.5), transparent), linear-gradient(135deg, rgba(23, 170, 97, 1), rgba(115, 12, 129, 1))";
   let para = document.getElementById("paragraph");
   para.textContent = "🎉 But JavaScript makes things interactive!";
 
