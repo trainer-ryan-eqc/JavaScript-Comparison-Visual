@@ -18,6 +18,7 @@ function showCSS() {
   document.getElementById("particles-js").innerHTML = "";
   document.getElementById("particles-js").style.background = "radial-gradient(circle 700px at 0% 30%, rgba(120, 22, 211, 0.5), transparent), linear-gradient(135deg, rgba(23, 170, 97, 1), rgba(115, 12, 129, 1))";
   document.getElementById("title").style.color = "white";
+  document.getElementById("title").style.cursor = "default";
   document.getElementById("paragraph").style.color = "white";
   let para = document.getElementById("paragraph");
   para.textContent = "CSS makes everything pretty!";
@@ -28,7 +29,7 @@ function showJS() {
   let para = document.getElementById("paragraph");
   let title = document.getElementById("title");
   title.style.color = "white";
-  title.style.cursor = "pointer"
+  title.style.cursor = "pointer";
   para.textContent = "🎉 But JavaScript makes things interactive!";
   document.getElementById("particles-js").style.background = "radial-gradient(circle 700px at 0% 30%, rgba(120, 22, 211, 0.5), transparent), linear-gradient(135deg, rgba(23, 170, 97, 1), rgba(115, 12, 129, 1))";
 
