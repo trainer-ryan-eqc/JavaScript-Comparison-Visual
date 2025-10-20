@@ -72,7 +72,7 @@ button {
     transform: translateY(0);
   }
   to {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
 }
 
